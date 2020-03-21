@@ -1,0 +1,53 @@
+Erntehelfer Architektur
+
+
+TODO
+Seite nur Arbeitgeber (Landwirte)
+
+Extra Feature
+Seite auch für Arbeitnehmer
+Anzeigen Sortierfunktion (z. B. Standort)
+Anzeigen sollen rausgenommen werden können von den Bauern (Anmeldeverfahren: Passwort bei Erstellung einer Anzeige per Mail zugesendet)
+
+
+Frontend
+Alles auf Startseite
+Anzeigen der Landwirte sollen zu sehen sein
+Neue Anzeige anlegen
+
+Backend
+Schnittstellen: RestAPI (http-Schnittstellen)
+Klassen:
+Application
+Controller (RestAPI)
+Definition Anzeige, Arbeitgeber, Inserat
+
+Datenbank
+Definition Anzeige, Arbeitgeber, Inserat
+
+
+Definition
+{
+    "Anzeige": {
+        "Arbeitgeber": {
+            "Firma": "BauerKnollesBauernhof",
+            "Vorname": "Edgar",
+            "Nachname": "Knolle",
+            "Mailadresse": "bauer.knolle@abc.de",
+            "MailadresseOeffentlich": true,
+            "Telefonnummer": "0123412345",
+            "TelefonnummerOeffentlich": true,
+            "Ort": "Berlin",
+            "PLZ": "12345",
+            "Straße": "Bauernfeindstraße",
+            "Hausnummer": "7"
+        },
+        "Inserat": {
+            "Titel": "Ernte",
+            "Details": "Ihr müsst Rübern pflücken! Ich brauche 10 Helfer für einen Tag.",
+            "Lohn": "8€ pro Stunde oder 50€ pro Erdbeerfeld",
+            "AnzeigeOnlineSeit": "2020-03-21"
+        }
+    }
+}
+
