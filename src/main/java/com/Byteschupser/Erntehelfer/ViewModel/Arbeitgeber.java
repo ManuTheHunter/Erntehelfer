@@ -2,17 +2,17 @@ package com.Byteschupser.Erntehelfer.ViewModel;
 
 public class Arbeitgeber {
 
-    String firma;
-    String vorname;
-    String nachname;
-    String mailadresse;
-    boolean mailadresseOeffentlich;
-    String telefonnummer;
-    boolean telefonnummerOeffentlich;
-    String ort;
-    int plz;
-    String straße;
-    int hausnummer;
+    private String firma;
+    private String vorname;
+    private String nachname;
+    private String mailadresse;
+    private boolean mailadresseOeffentlich;
+    private String telefonnummer;
+    private boolean telefonnummerOeffentlich;
+    private String ort;
+    private int plz;
+    private String straße;
+    private int hausnummer;
 
     public String getFirma() {
         return firma;

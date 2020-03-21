@@ -2,10 +2,10 @@ package com.Byteschupser.Erntehelfer.ViewModel;
 
 public class Inserat {
 
-    String titel;
-    String details;
-    String lohn;
-    String anzeigeOnlineSeit;
+    private String titel;
+    private String details;
+    private String lohn;
+    private String anzeigeOnlineSeit;
 
     public String getTitel() {
         return titel;

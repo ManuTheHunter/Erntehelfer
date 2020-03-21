@@ -2,8 +2,8 @@ package com.Byteschupser.Erntehelfer.ViewModel;
 
 public class Anzeige {
 
-    Arbeitgeber arbeitgeber;
-    Inserat inserat;
+    private Arbeitgeber arbeitgeber;
+    private Inserat inserat;
 
     public Arbeitgeber getArbeitgeber() {
         return arbeitgeber;
